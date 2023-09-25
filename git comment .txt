@@ -72,7 +72,7 @@ How to branch merge
 
 
 ================================
-How to git push and pop
+How to git push and pull
 ================================
 
 https://prnt.sc/FPwWhGcRTQQS
@@ -81,6 +81,9 @@ https://prnt.sc/FPwWhGcRTQQS
  => git branch -M main
  => git remote add origin https://github.com/ArmRoni/javaScript.git
  => git push -u origin main
+
+2.when more update remote file then need this file local then use
+ => git pull
 
 Note:
 1.ls(list) ls call commant show all file list
