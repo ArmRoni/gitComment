@@ -71,6 +71,16 @@ How to branch merge
 1.git merge development -m "marge development"
 
 
+================================
+How to git push and pop
+================================
+
+https://prnt.sc/FPwWhGcRTQQS
+
+1.git branch change (master to main)
+ => git branch -M main
+ => git remote add origin https://github.com/ArmRoni/javaScript.git
+ => git push -u origin main
 
 Note:
 1.ls(list) ls call commant show all file list
