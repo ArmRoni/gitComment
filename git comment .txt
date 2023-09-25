@@ -83,7 +83,7 @@ https://prnt.sc/FPwWhGcRTQQS
  => git push -u origin main
 
 2.when more update remote file then need this file local then use
- => git pull
+ =>$ git pull main
 
 Note:
 1.ls(list) ls call commant show all file list
