@@ -1,0 +1,77 @@
+with comment open new file:
+========================================
+git initail part start
+=========================================
+1.mkdir gitOne (mkdir = make directory)
+
+2. cd (cd = change directory) it used to change the current working directory{
+  and cd use to open new folder. Back to 1step working directory you can use (cd ../)
+}
+
+exmple : cd gitOne
+
+3.touch () to creact new file
+
+ex: touch one.txt
+    touch two.txt
+
+
+4. git init ( init = initialize) this is to identify files in git. this way git always keeps track of the file
+
+
+5. git clone https://github.com/ArmRoni/gitone.git (clone = clone used to import files form github to git. remote to local )
+
+6. git status (If there is any change in the Git file, it can be seen through Git status)
+
+
+===========================================
+git initail part end
+===========================================
+
+===========================================
+How to git working directory to stage  (add )
+===========================================
+
+ https://prnt.sc/MgBJN90Ht0Fk(follw the imge )
+
+1.git add --all  (all files will move to from wroking directory to stage)
+ -git add -A 
+ -git add . (only working file to add no other file add this commant)
+
+
+if you want to go from stage to working directory again than
+2.git reset 
+
+
+===========================================
+How to git (stage) ==> (local repository)  (commit )
+===========================================
+https://prnt.sc/e8gntu1d9bAk (follw the imges)
+
+1.git commit -m "i have made some chane to files "  (git commit use to one kinds of save file)
+
+if you want to go from repository  to working directory again than
+2.git reset HEAD~
+3.git reset --hard  (it is used to restore a deleted file)
+
+Note: git rm file name (remove) this commant same time remove file and update to stage auto
+
+
+
+===========================================
+How to branch controling 
+===========================================
+1. git branch [check git branch name]
+2. git branch development (open new branch it's name development)
+3. git checkout development (move branch to branch "git checkout" comment)
+
+===========================================
+How to branch merge  
+===========================================
+1.git merge development -m "marge development"
+
+
+
+Note:
+1.ls(list) ls call commant show all file list
+2. pwd (print working directory) check working directory
